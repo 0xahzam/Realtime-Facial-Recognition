@@ -19,7 +19,7 @@ for x,y,w,h in face_coordinates:
 
 cv2.imshow("Face Detector",img)
 
-#waitkey prevents the window from closing instantaneously
+#waitkey prevents the window from closing instantaneously, press Q to quit
 cv2.waitKey()
 
 
