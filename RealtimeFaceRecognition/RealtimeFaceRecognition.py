@@ -24,6 +24,9 @@ while True:
         cv2.rectangle(frame, (x,y),(x+w,y+h), (0,255,0),2) 
 
     cv2.imshow("Live Face Detector",frame)
+    
+    #waitkey prevents the window from closing instantaneously, press Q to quit
+
     key = cv2.waitKey(1)
 
     if key==81 or key==113:
